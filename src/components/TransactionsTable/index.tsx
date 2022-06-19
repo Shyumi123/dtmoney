@@ -6,7 +6,7 @@ import { Container } from "./styles";
 
 export function TransactionsTable() {
   //fetch the context from the TransactionsContext.ts
-  const transactions = useContext(TransactionsContext);
+  const {transactions} = useContext(TransactionsContext);
 
 
   return (
